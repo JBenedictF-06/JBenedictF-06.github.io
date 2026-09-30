@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>John Benedict Falculan — Web &amp; Systems Developer</title>
+<style>
+  :root {
+    --bg: #F7F7F4;
+    --card: #FFFFFF;
+    --ink: #14181F;
+    --ink-soft: #565C68;
+    --line: #E1DFD6;
+    --accent: #1F6F6B;
+    --accent-soft: #E5F0EF;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161A;
+      --card: #1B1E23;
+      --ink: #ECEAE3;
+      --ink-soft: #9CA3AF;
+      --line: #2B2E33;
+      --accent: #5FCFC9;
+      --accent-soft: #1E2C2B;
+    }
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 56px 20px 64px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+  .role {
+    font-size: 14px;
+    color: var(--accent);
+    margin: 0 0 22px;
+  }
+  .intro {
+    font-size: 16px;
+    color: var(--ink-soft);
+    max-width: 58ch;
+    margin: 0 0 8px;
+  }
+  .meta {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 18px 0 40px;
+  }
+  .meta a { color: var(--ink-soft); }
+  h2 {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    margin: 0 0 14px;
+  }
+  .list {
+    border-top: 1px solid var(--line);
+  }
+  .row {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .row:hover .domain { color: var(--accent); }
+  .row-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .domain {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .tag {
+    font-size: 12px;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 3px 9px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .desc {
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin-top: 4px;
+    max-width: 56ch;
+  }
+  footer {
+    margin-top: 44px;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>John Benedict Falculan</h1>
+  <p class="role mono">web &amp; systems developer</p>
+  <p class="intro">Six production websites and business systems, planned, built, and still maintained solo — from product catalogs and quote forms to the admin panels behind them.</p>
+  <p class="meta">Manila, Philippines &middot; <a href="mailto:j.benedict.f06@gmail.com">j.benedict.f06@gmail.com</a> &middot; open to remote work</p>
+
+  <h2>Live systems</h2>
+  <div class="list">
+
+    <a class="row" href="https://kenkim-ent.com/" target="_blank" rel="noopener">
+      <div class="row-top">
+        <span class="domain mono">kenkim-ent.com</span>
+        <span class="tag">Hygiene &amp; facilities</span>
+      </div>
+      <div class="desc">Kenkim Enterprises — commercial hygiene and scent-marketing site with rental-program pages and an admin-managed product catalog.</div>
+    </a>
+
+    <a class="row" href="https://aromacity.ph/" target="_blank" rel="noopener">
+      <div class="row-top">
+        <span class="domain mono">aromacity.ph</span>
+        <span class="tag">Scent branding</span>
+      </div>
+      <div class="desc">Aroma City — product catalog and quote-request flow for a commercial scent-machine brand, admin-managed end to end.</div>
+    </a>
+
+    <a class="row" href="https://bluecollarmanpowerservices.com/" target="_blank" rel="noopener">
+      <div class="row-top">
+        <span class="domain mono">bluecollarmanpowerservices.com</span>
+        <span class="tag">Manpower staffing</span>
+      </div>
+      <div class="desc">Blue Collar Manpower Services — corporate site for a 10,000-strong staffing workforce, with jobs, services, and inquiry forms.</div>
+    </a>
+
+    <a class="row" href="https://goldenhandmsi.com/" target="_blank" rel="noopener">
+      <div class="row-top">
+        <span class="domain mono">goldenhandmsi.com</span>
+        <span class="tag">Manpower staffing</span>
+      </div>
+      <div class="desc">Goldenhand Management Services — workforce-deployment site with live stats, service breakdowns, and a lead-intake form.</div>
+    </a>
+
+    <a class="row" href="https://51st-securitygroup.com/" target="_blank" rel="noopener">
+      <div class="row-top">
+        <span class="domain mono">51st-securitygroup.com</span>
+        <span class="tag">Security services</span>
+      </div>
+      <div class="desc">51st Security Group — services site covering guard deployment, risk assessment, and safety training.</div>
+    </a>
+
+    <a class="row" href="https://cooladsprint.com/" target="_blank" rel="noopener">
+      <div class="row-top">
+        <span class="domain mono">cooladsprint.com</span>
+        <span class="tag">Printing &amp; signage</span>
+      </div>
+      <div class="desc">Cool Ads Designs and Print — full product catalog for signage and printing, plus an admin-managed blog and gallery.</div>
+    </a>
+
+  </div>
+
+  <footer>Planning, development, deployment, and ongoing maintenance handled independently across all six.</footer>
+</div>
+</body>
+</html>
