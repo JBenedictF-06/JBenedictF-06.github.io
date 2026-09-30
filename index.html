@@ -110,6 +110,36 @@
     margin-top: 4px;
     max-width: 56ch;
   }
+  .company {
+    font-size: 12px;
+    color: var(--ink-soft);
+    margin-top: 6px;
+  }
+  .about {
+    font-size: 15px;
+    color: var(--ink-soft);
+    max-width: 60ch;
+    margin: 0 0 44px;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 44px;
+  }
+  .skill {
+    font-size: 13px;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 5px 11px;
+    border-radius: 5px;
+  }
+  .skill.learning {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
   footer {
     margin-top: 44px;
     font-size: 13px;
@@ -125,6 +155,23 @@
   <p class="intro">Six production websites and business systems, planned, built, and still maintained solo — from product catalogs and quote forms to the admin panels behind them.</p>
   <p class="meta">Manila, Philippines &middot; <a href="mailto:j.benedict.f06@gmail.com">j.benedict.f06@gmail.com</a> &middot; open to remote work</p>
 
+  <h2>About</h2>
+  <p class="about">Web and systems developer with 3 years of experience designing and building full-stack business systems and public websites end to end — requirements, build, deployment, and ongoing maintenance. Core stack is PHP, MySQL, JavaScript, and HTML/CSS, extended through a low-code platform (Rukovoditel) for fast system delivery, plus AI-assisted development tools to move faster. Sole owner of everything below, from first line to production.</p>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <span class="skill">HTML</span>
+    <span class="skill">CSS</span>
+    <span class="skill">JavaScript</span>
+    <span class="skill">PHP</span>
+    <span class="skill">MySQL</span>
+    <span class="skill">Low-code systems (Rukovoditel)</span>
+    <span class="skill">Admin panel &amp; backend development</span>
+    <span class="skill">Workflow automation</span>
+    <span class="skill">AI-assisted development</span>
+    <span class="skill learning">Learning: Wix, Google Tag Manager</span>
+  </div>
+
   <h2>Live systems</h2>
   <div class="list">
 
@@ -133,7 +180,8 @@
         <span class="domain mono">kenkim-ent.com</span>
         <span class="tag">Hygiene &amp; facilities</span>
       </div>
-      <div class="desc">Kenkim Enterprises — commercial hygiene and scent-marketing site with rental-program pages and an admin-managed product catalog.</div>
+      <div class="desc">Built the product catalog, rental-program pages, and quote-request flow — plus the admin panel that runs all of it.</div>
+      <div class="company">Kenkim Enterprises &middot; commercial hygiene &amp; scent marketing</div>
     </a>
 
     <a class="row" href="https://aromacity.ph/" target="_blank" rel="noopener">
@@ -141,7 +189,8 @@
         <span class="domain mono">aromacity.ph</span>
         <span class="tag">Scent branding</span>
       </div>
-      <div class="desc">Aroma City — product catalog and quote-request flow for a commercial scent-machine brand, admin-managed end to end.</div>
+      <div class="desc">Built the product catalog and B2B quote-request flow, backed by an admin panel for managing machines and content.</div>
+      <div class="company">Aroma City &middot; commercial scent machines</div>
     </a>
 
     <a class="row" href="https://bluecollarmanpowerservices.com/" target="_blank" rel="noopener">
@@ -149,7 +198,8 @@
         <span class="domain mono">bluecollarmanpowerservices.com</span>
         <span class="tag">Manpower staffing</span>
       </div>
-      <div class="desc">Blue Collar Manpower Services — corporate site for a 10,000-strong staffing workforce, with jobs, services, and inquiry forms.</div>
+      <div class="desc">Built the corporate site, jobs board, and inquiry form for a staffing company deploying 10,000+ personnel.</div>
+      <div class="company">Blue Collar Manpower Services &middot; staffing &amp; maintenance</div>
     </a>
 
     <a class="row" href="https://goldenhandmsi.com/" target="_blank" rel="noopener">
@@ -157,7 +207,8 @@
         <span class="domain mono">goldenhandmsi.com</span>
         <span class="tag">Manpower staffing</span>
       </div>
-      <div class="desc">Goldenhand Management Services — workforce-deployment site with live stats, service breakdowns, and a lead-intake form.</div>
+      <div class="desc">Built the workforce-deployment site, including live stat counters, service breakdowns, and a lead-intake form.</div>
+      <div class="company">Goldenhand Management Services &middot; workforce deployment</div>
     </a>
 
     <a class="row" href="https://51st-securitygroup.com/" target="_blank" rel="noopener">
@@ -165,7 +216,8 @@
         <span class="domain mono">51st-securitygroup.com</span>
         <span class="tag">Security services</span>
       </div>
-      <div class="desc">51st Security Group — services site covering guard deployment, risk assessment, and safety training.</div>
+      <div class="desc">Built the services site and content structure covering guard deployment, risk assessment, and safety training.</div>
+      <div class="company">51st Security Group &middot; security services</div>
     </a>
 
     <a class="row" href="https://cooladsprint.com/" target="_blank" rel="noopener">
@@ -173,7 +225,8 @@
         <span class="domain mono">cooladsprint.com</span>
         <span class="tag">Printing &amp; signage</span>
       </div>
-      <div class="desc">Cool Ads Designs and Print — full product catalog for signage and printing, plus an admin-managed blog and gallery.</div>
+      <div class="desc">Built the full product catalog, admin-managed blog, and gallery for a signage and printing business.</div>
+      <div class="company">Cool Ads Designs and Print &middot; printing &amp; signage</div>
     </a>
 
   </div>
